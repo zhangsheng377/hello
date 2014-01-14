@@ -174,7 +174,9 @@ void CHelloDlg::OnOK()
 	// TODO: Add extra validation here
 	CFont font;
 	font.CreatePointFont (200,"宋体");
-	GetDlgItem(IDC_STATIC)->SetWindowText("Hello");
+	GetDlgItem(IDC_STATIC)->SetWindowText("老婆，我爱你～～");
 	GetDlgItem(IDC_STATIC)->SetFont(&font);
+	GetDlgItem(IDC_STATIC1)->SetWindowText("么么~~");
+	GetDlgItem(IDC_STATIC1)->SetFont(&font);
 	//CDialog::OnOK();
 }

@@ -7,7 +7,7 @@ LastTemplate=CDialog
 NewFileInclude1=#include "stdafx.h"
 NewFileInclude2=#include "Hello.h"
 
-ClassCount=4
+ClassCount=3
 Class1=CHelloApp
 Class2=CHelloDlg
 Class3=CAboutDlg
@@ -32,6 +32,7 @@ ImplementationFile=HelloDlg.cpp
 Filter=D
 BaseClass=CDialog
 VirtualFilter=dWC
+LastObject=IDCANCEL
 
 [CLS:CAboutDlg]
 Type=0
@@ -59,11 +60,12 @@ Class=CHelloDlg
 
 [DLG:IDD_HELLO_DIALOG (English (U.S.))]
 Type=1
-Class=?
-ControlCount=3
+Class=CHelloDlg
+ControlCount=4
 Control1=IDOK,button,1342242817
 Control2=IDCANCEL,button,1342242816
 Control3=IDC_STATIC,static,1342308352
+Control4=IDC_STATIC1,static,1342308352
 
 [DLG:IDD_ABOUTBOX (English (U.S.))]
 Type=1
